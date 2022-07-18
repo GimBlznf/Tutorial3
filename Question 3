@@ -1,0 +1,11 @@
+object Add{
+  def main (args: Array[String]):Unit={
+    var r:Float=5.0;
+    var volume:Double=(4/3)*(22/7)*r*r*r;
+    
+    println("Volume of the sphere : "+volume);
+
+    
+  }
+
+}
