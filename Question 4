@@ -1,0 +1,20 @@
+object Add{
+  def main (args: Array[String]):Unit={
+    var CoverPrice:Double=24.95;
+    var discountedPrice:Double=CoverPrice-(CoverPrice*0.4);
+    var noofbooks:Int=60;
+    var Price:Double=discountedPrice*noofbooks;
+    var FinalPrice:Double=0;
+    if(noofbooks<50){
+      FinalPrice=Price+(noofbooks*3);
+    }else{
+      FinalPrice=Price+(50*3)+((noofbooks-50)*0.75);
+    }
+    
+    //println("Price : "+Price);
+    println("Final Price : "+FinalPrice);
+
+    
+  }
+
+}
