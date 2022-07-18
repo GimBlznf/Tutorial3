@@ -1,0 +1,11 @@
+object Add{
+  def main (args: Array[String]):Unit={
+    var temp:Float=35.0;
+    var f:Double=temp*1.8000+32.00;
+    
+    println("Temperature in Fahrenheit : "+f);
+
+    
+  }
+
+}
