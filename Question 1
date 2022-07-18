@@ -1,11 +1,7 @@
-object Add{
-  def main (args: Array[String]):Unit={
-    var radius:Float=5;
-    var area:Float=3.14F*radius*radius;
-    
-    println("Area of the disk : "+area);
-
-    
+object q1 extends App{
+  def DiskArea(r:Double) : Double = {
+    return math.Pi*r*r;
   }
-
+    
+    println("Area of the disk : "+DiskArea(5));
 }
