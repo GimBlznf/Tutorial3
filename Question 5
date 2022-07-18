@@ -1,14 +1,12 @@
-object Add{
-  def main (args: Array[String]):Unit={
-    var easyPace:Int=8;
-    var Tempo:Int=7;
-    var easykm:Int=4;
-    var tempokm:Int=3;
-    var total:Int=(easyPace*easykm)+(Tempo*tempokm);
-    
-    println("Total time : "+total);
-
-    
+object q5 extends App{
+  def EasyTime(x: Int):Int={
+    return x*8;
   }
+  
+  def TempoTime(x:Int):Int={
+    return x*7;
+  }
+
+    println("Total time : "+(EasyTime(4)+TempoTime(3)));
 
 }
